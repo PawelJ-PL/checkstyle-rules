@@ -35,7 +35,7 @@
   * Disabled Javdoc requirements
   * Disabled DesignForExtension
   * Updated RegexpSingleline pattern
-  * Max line length extended to 120 characters
+  * Max line length extended to 140 characters
   * Allow to shadow fields by constructor parameters
   * Disabled Todo comment
 
@@ -121,7 +121,7 @@
         <!-- Checks for Size Violations.                    -->
         <!-- See http://checkstyle.sf.net/config_sizes.html -->
         <module name="LineLength">
-             <property name="max" value="120"/>
+             <property name="max" value="140"/>
         </module>
         <module name="MethodLength"/>
         <module name="ParameterNumber"/>
