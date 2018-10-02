@@ -36,7 +36,7 @@
   * Disabled DesignForExtension
   * Updated RegexpSingleline pattern
   * Max line length extended to 140 characters
-  * Allow to shadow fields by constructor parameters
+  * Allow to shadow fields by constructor parameters and setters
   * Disabled Todo comment
 
 -->
@@ -159,6 +159,7 @@
         <module name="EqualsHashCode"/>
         <module name="HiddenField">
             <property name="ignoreConstructorParameter" value="true"/>
+            <property name="ignoreSetter" value="true" />
         </module>
         <module name="IllegalInstantiation"/>
         <module name="InnerAssignment"/>
